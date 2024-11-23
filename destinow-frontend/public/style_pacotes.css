@@ -1,0 +1,123 @@
+/* Estilo da página de pacotes */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #6a1b9a; /* Cor roxa */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    background-color: #6a1b9a; /* Cor roxa */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #6a1b9a; /* Cor roxa */
+}
+
+.pacotes-intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.pacotes-intro p {
+    font-size: 1.2rem;
+}
+
+.pacotes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pacote {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pacote img {
+    width: 100%;
+    height: auto;
+}
+
+.pacote-detalhes {
+    padding: 15px;
+    text-align: left;
+}
+
+.pacote h3 {
+    font-size: 1.5rem;
+    color: #6a1b9a; /* Cor roxa */
+}
+
+.pacote p {
+    margin: 10px 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-comprar {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #6a1b9a;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-comprar:hover {
+    background-color: #4a0072;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}

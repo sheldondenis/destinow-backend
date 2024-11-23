@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Destinow</title>
+    <link rel="stylesheet" href="style_login.css">
+    <script>
+        // Função para exibir a mensagem de aguardar
+        function showLoadingMessage() {
+            document.getElementById('loading-message').style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo-principal">Destinow</h1>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <h2>Faça seu Cadastro</h2>
+            <form action="dashboard.html" method="POST" onsubmit="showLoadingMessage()">
+
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" id="telefone" name="etelefone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="confirme">Confirme sua senha:</label>
+                <input type="confirme" id="confirme" name="confirme" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+            
+            <!-- Mensagem de "aguarde" -->
+            <p id="loading-message" style="display: none; color: blue; font-weight: bold;">Aguarde...</p>
+
+            <p>Já possuí uma conta? <a href="login.html">Faça seu login aqui</a>.</p>
+
+            <!-- Link para voltar ao Home -->
+            <p><a href="index.html">← Voltar para Home</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Destinow. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
