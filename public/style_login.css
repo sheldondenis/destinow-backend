@@ -1,0 +1,64 @@
+/* Estilo para a seção de login */
+.login-section {
+    width: 320px; /* Aumentado um pouco para maior conforto */
+    margin: 100px auto;
+    padding: 30px; /* Aumentado o padding para evitar que o conteúdo encoste nas bordas */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-sizing: border-box; /* Garante que padding não afete o tamanho da caixa */
+}
+
+.login-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-section label {
+    display: block;
+    margin-bottom: 10px; /* Espaço maior abaixo do label */
+    font-weight: bold;
+    color: #555;
+    text-align: left; /* Alinhado à esquerda para facilitar a leitura */
+}
+
+.login-section input {
+    width: calc(100% - 20px); /* Evita que o input encoste nas bordas da caixa */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding seja incluído na largura */
+}
+
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço extra antes do botão */
+}
+
+.login-section button:hover {
+    background-color: #0056b3;
+}
+
+.login-section p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Estilo para o link de voltar ao Home */
+.login-section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.login-section a:hover {
+    color: #0056b3;
+}
